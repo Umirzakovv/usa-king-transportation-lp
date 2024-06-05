@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      blur: {
+        "4": "4px",
+        "8": "8px",
+        "16": "16px",
+      },
       colors: {
         main_black: "#303030",
-        main_grey: "#303030",
+        main_grey: "#e6eaef",
         main_brown: "#6E5E51",
         main_orange: "#E8C873",
         main_blue: "#627A9E",

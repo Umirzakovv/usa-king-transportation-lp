@@ -1,11 +1,13 @@
-import { useTranslations } from "next-intl";
-import Header from "../components/Header/header";
+import AboutUs from "../components/Main/AboutUs";
+import AboutUsSecondPart from "../components/Main/AboutUsSecondPart";
+import Hero from "../components/Main/Hero";
 
 export default function Home() {
-  const t = useTranslations("Index");
   return (
-    <main>
-      <Header/>
-    </main>
+    <div>
+      <Hero />
+      <AboutUs />
+      <AboutUsSecondPart />
+    </div>
   );
 }
