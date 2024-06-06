@@ -1,4 +1,4 @@
-import { navbarLinks } from "@/app/utils/navbar-links";
+import { navbarLinks } from "@/app/data/navbar-links";
 import Link from "next/link";
 import React from "react";
 
@@ -9,7 +9,10 @@ const Navbar = () => {
         {navbarLinks?.map((item) => {
           return (
             <li key={item?.id}>
-              <Link href={item?.href} className="text-main_brown font-medium bg-text">
+              <Link
+                href={item?.href}
+                className="text-main_brown font-medium bg-text"
+              >
                 {item?.title}
               </Link>
             </li>
