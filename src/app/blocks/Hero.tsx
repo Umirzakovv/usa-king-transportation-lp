@@ -4,7 +4,7 @@ import Container from "../components/reusable/Container";
 
 const Hero: FC = () => {
   return (
-    <div className="bg-[url(/hero-bg.png)] bg-cover bg-center bg-no-repeat">
+    <div id="home" className="bg-[url(/hero-bg.png)] bg-cover bg-center bg-no-repeat">
       <Header />
       <Container className="py-[200px]">
         <h1 className="text-7xl font-semibold text-white">

@@ -6,7 +6,7 @@ import Title from "../components/reusable/Title";
 
 const FormSection: FC = () => {
   return (
-    <section id="form" className="py-20 h-max">
+    <section id="join-us" className="py-20 h-max">
       <Container>
         <Title className="text-center mb-20">
           Don’t miss out on your ideal opportunity

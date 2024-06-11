@@ -30,7 +30,7 @@ const JoinUs: FC = () => {
             </p>
             <LinkGen
               title="Join us"
-              href="#form"
+              href="#join-us"
               className="bg-[#627A9E] py-2 px-10 shadow block my-0 mx-auto text-center w-max mt-10"
             />
           </div>

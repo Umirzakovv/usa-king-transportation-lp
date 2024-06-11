@@ -22,6 +22,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .border-orange {
   border: 1px solid #e8c873;
 }

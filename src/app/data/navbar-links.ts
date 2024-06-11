@@ -16,6 +16,11 @@ export const navbarLinks = [
   },
   {
     id: 4,
+    title: "Join us",
+    href: "#join-us",
+  },
+  {
+    id: 5,
     title: "Contacts",
     href: "#contacts",
   },
