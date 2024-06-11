@@ -3,7 +3,7 @@ import LinkGen from "../reusable/LinkGen";
 const Utilitybar = () => {
   return (
     <div>
-      <LinkGen title="Apply" />
+      <LinkGen title="Apply" href="#form"/>
     </div>
   );
 };
