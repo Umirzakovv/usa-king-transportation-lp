@@ -6,14 +6,16 @@ import Container from "../reusable/Container";
 
 const Header: FC = () => {
   return (
-    <div>
-      <Container>
-        <header className="flex justify-between items-center">
-          <Logo />
-          <Navbar />
-          <Utilitybar />
-        </header>
-      </Container>
+    <div className="backdrop-blur py-2">
+      <div>
+        <Container>
+          <header className="flex justify-between items-center">
+            <Logo />
+            <Navbar />
+            <Utilitybar />
+          </header>
+        </Container>
+      </div>
     </div>
   );
 };

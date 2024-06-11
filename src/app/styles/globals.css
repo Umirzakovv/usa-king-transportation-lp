@@ -22,6 +22,26 @@
   }
 }
 
+.border-orange {
+  border: 1px solid #e8c873;
+}
+
 .borderr {
   border: 1px solid red;
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }

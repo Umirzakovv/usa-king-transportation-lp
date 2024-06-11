@@ -1,20 +1,20 @@
+import Link from "next/link";
 import { FC } from "react";
 
-type ButtonType = {
+type LinkGenType = {
   title: string;
   className?: string;
-  type: "submit" | "reset" | "button" | undefined;
 };
 
-const Button: FC<ButtonType> = ({ title, className = "", type }) => {
+const LinkGen: FC<LinkGenType> = ({ title, className = "" }) => {
   return (
-    <button
-      type={type}
+    <Link
+      href="#contacts"
       className={`${className} bg-main_orange text-lg px-6 py-2 font-semibold text-white rounded-full`}
     >
       {title}
-    </button>
+    </Link>
   );
 };
 
-export default Button;
+export default LinkGen;

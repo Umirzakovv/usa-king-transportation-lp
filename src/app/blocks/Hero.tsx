@@ -1,8 +1,8 @@
-import React from "react";
-import Header from "../Header/Header";
-import Container from "../reusable/Container";
+import { FC } from "react";
+import Header from "../components/Header/Header";
+import Container from "../components/reusable/Container";
 
-const Hero = () => {
+const Hero: FC = () => {
   return (
     <div className="bg-[url(/hero-bg.png)] bg-cover bg-center bg-no-repeat">
       <Header />

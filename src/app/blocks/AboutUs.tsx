@@ -1,7 +1,9 @@
-import Container from "../reusable/Container";
-import Title from "../reusable/Title";
+import { FC } from "react";
+import Container from "../components/reusable/Container";
+import Title from "../components/reusable/Title";
 
-const AboutUs = () => {
+
+const AboutUs:FC = () => {
   return (
     <div id="about-us" className="bg-[url(/about-us-bg.svg)] py-[200px]">
       <Container className="flex justify-between">

@@ -15,7 +15,7 @@ export const navbarLinks = [
     href: "#for-drivers",
   },
   {
-    id: 1,
+    id: 4,
     title: "Contacts",
     href: "#contacts",
   },

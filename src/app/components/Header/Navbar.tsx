@@ -11,7 +11,7 @@ const Navbar = () => {
             <li key={item?.id}>
               <Link
                 href={item?.href}
-                className="text-main_brown font-medium bg-text"
+                className="text-main_brown font-medium bg-text hover:text-[#6e5e5183]"
               >
                 {item?.title}
               </Link>

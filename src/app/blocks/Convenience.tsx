@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -8,16 +8,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "../../styles/swiper.css";
-
+import "../styles/swiper.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import SwiperCard from "./SwiperCard";
 import { convenience } from "@/app/data/convenience";
+import SwiperCard from "../components/Main/SwiperCard";
 
-
-
-const App: React.FC = () => {
+const Convenience: React.FC = () => {
   const progressCircle = useRef<SVGSVGElement>(null);
   const progressContent = useRef<HTMLSpanElement>(null);
 
@@ -68,4 +65,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default Convenience;

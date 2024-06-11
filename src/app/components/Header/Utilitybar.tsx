@@ -1,9 +1,9 @@
-import Button from "../reusable/Button";
+import LinkGen from "../reusable/LinkGen";
 
 const Utilitybar = () => {
   return (
     <div>
-      <Button title="Apply" />
+      <LinkGen title="Apply" />
     </div>
   );
 };

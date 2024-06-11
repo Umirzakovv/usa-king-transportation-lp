@@ -1,7 +1,6 @@
 import { FC } from "react";
-import Title from "../reusable/Title";
-import Container from "../reusable/Container";
-import Image from "next/image";
+import Container from "../components/reusable/Container";
+import Title from "../components/reusable/Title";
 
 const AboutUsSecondPart: FC = () => {
   return (
@@ -16,10 +15,10 @@ const AboutUsSecondPart: FC = () => {
           specialize in freight forwarding.
         </p>
         <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
-          <div className="borderr rounded-2xl col-start-1 col-span-2 row-start-1 row-span-2"></div>
-          <div className="borderr rounded-2xl col-start-3 col-span-1"></div>
-          <div className="borderr rounded-2xl col-start-4 col-span-1"></div>
-          <div className="borderr rounded-2xl col-start-3 col-span-2"></div>
+          <div className="rounded-2xl col-start-1 col-span-2 row-start-1 row-span-2"></div>
+          <div className="rounded-2xl col-start-3 col-span-1"></div>
+          <div className="rounded-2xl col-start-4 col-span-1"></div>
+          <div className="rounded-2xl col-start-3 col-span-2"></div>
         </div>
       </Container>
     </div>
