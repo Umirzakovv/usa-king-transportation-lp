@@ -4,7 +4,7 @@ import React, { FC } from "react";
 const CallSupportInput: FC = () => {
   return (
     <>
-      <div className="border-orange rounded-[50px] p-1 flex justify-between items-center shadow-xl">
+      <div className="border-orange rounded-[50px] p-1 flex justify-between items-center shadow-xl ">
         <input
           type="number"
           placeholder="Enter your number"

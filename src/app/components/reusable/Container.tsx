@@ -5,9 +5,11 @@ type ContainerType = {
   children: ReactNode;
 };
 
-const Container: FC<ContainerType> = ({ className="", children }) => {
+const Container: FC<ContainerType> = ({ className = "", children }) => {
   return (
-    <div className={`${className} w-[1440px] block my-0 mx-auto`}>
+    <div
+      className={`${className} borderr w-[1440px] block my-0 mx-auto max-2xl:w-[1000px] max-lg:w-[750px]`}
+    >
       {children}
     </div>
   );

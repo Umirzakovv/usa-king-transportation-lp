@@ -5,7 +5,7 @@ import { FC } from "react";
 const Logo: FC = () => {
   return (
     <Link href="#home">
-      <Image src="/logo.svg" alt="logo" width={138} height={77} />
+      <Image src="/logo.svg" alt="logo" layout="" width={138} height={77}/>
     </Link>
   );
 };

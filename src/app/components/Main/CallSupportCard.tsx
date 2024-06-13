@@ -32,7 +32,7 @@ const CallSupportCard: FC<CallSupportCardProps> = ({
   };
 
   return (
-    <div className="border-orange w-full grid gap-1 p-5 rounded-2xl">
+    <div className="border-orange w-full grid gap-1 p-5 rounded-2xl ">
       <h4 className="text-[#303030] text-xl font-medium">{title}</h4>
 
       {email && (

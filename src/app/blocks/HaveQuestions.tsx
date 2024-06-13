@@ -10,7 +10,7 @@ const HaveQuestions: FC = () => {
     <div id="contacts">
       <Container className="py-20">
         <Title className="text-center pb-20">Have Questions?</Title>
-        <div className="w-full flex items-center justify-between">
+        <div className="w-full flex items-center justify-between max-lg:grid">
           <div className="w-1/2">
             <CallSupport />
             <p className="text-[#627A9E] m-5">
@@ -18,6 +18,7 @@ const HaveQuestions: FC = () => {
             </p>
             <CallSupportInput />
           </div>
+
           <Image
             src="/iphone-15.png"
             alt="Iphone 15 img"

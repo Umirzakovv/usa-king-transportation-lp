@@ -11,7 +11,7 @@ const FormSection: FC = () => {
         <Title className="text-center mb-20">
           Don’t miss out on your ideal opportunity
         </Title>
-        <div className="flex">
+        <div className="flex borderr max-2xl:grid">
           <Image
             src="/form-truck.png"
             alt="truck image"
