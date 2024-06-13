@@ -24,9 +24,11 @@ const Form = () => {
         required={false}
         error="1"
       />
-      <TextArea label="Additional" required={false} error="lorem">
-        {textareaValue}
-      </TextArea>
+      <TextArea
+        label="Additional"
+        required={false}
+        error="lorem"
+      />
       <Button type="submit" title="Submit" className="w-full" />
     </form>
   );

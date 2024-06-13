@@ -8,19 +8,9 @@ const JoinUs: FC = () => {
     <div className="py-20 bg-main_grey">
       <Container>
         <div className=" h-[500px] grid grid-cols-3 grid-rows-4 gap-4">
-          <div className="col-span-2 row-span-2">
-            {/* <Image
-              src="/join-us-truck1.png"
-              alt="truck img"
-              layout="responsive"
-              width={800}
-              height={240}
-              className="object-cover"
-            /> */}
-            01
-          </div>
-          <div className="row-span-1">02</div>
-          <div className="col-span-1 row-span-3">03</div>
+          <div className="borderr col-span-2 row-span-2">01</div>
+          <div className="borderr row-span-1">02</div>
+          <div className="borderr col-span-1 row-span-3">03</div>
 
           <div className="col-span-2 row-span-2 bg-white p-10 rounded-2xl">
             <p className="text-xl text-justify">

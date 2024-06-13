@@ -5,10 +5,10 @@ interface TextAreaProps {
   label: string;
   placeholder?: string;
   error?: string;
-  children: ReactNode;
+  value?: string | number;
 }
 
-const TextArea: FC<TextAreaProps> = ({ label, required, error, children }) => {
+const TextArea: FC<TextAreaProps> = ({ label, required, error }) => {
   return (
     <div>
       <label className="text-[#627A9E]">
@@ -18,9 +18,7 @@ const TextArea: FC<TextAreaProps> = ({ label, required, error, children }) => {
           cols={40}
           required={required}
           className="border-orange block text-xl p-2 rounded-3xl w-full focus:outline-main_orange placeholder-[#627a9e71]"
-        >
-          {children}
-        </textarea>
+        />
         <p className="text-rose-500 invisible">{error}</p>
       </label>
     </div>
