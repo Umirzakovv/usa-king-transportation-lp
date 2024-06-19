@@ -2,9 +2,10 @@ import { FC } from "react";
 import Container from "../components/reusable/Container";
 import Title from "../components/reusable/Title";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 const AboutUsSecondPart: FC = () => {
-  const t = useTranslations("AboutUs2")
+  const t = useTranslations("AboutUs2");
   return (
     <div className="bg-main_grey ">
       <Container className="py-[100px]">
@@ -16,10 +17,42 @@ const AboutUsSecondPart: FC = () => {
           {t("text")}
         </p>
         <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
-          <div className="borderr rounded-2xl col-start-1 col-span-2 row-start-1 row-span-2"></div>
-          <div className="borderr rounded-2xl col-start-3 col-span-1"></div>
-          <div className="borderr rounded-2xl col-start-4 col-span-1"></div>
-          <div className="borderr rounded-2xl col-start-3 col-span-2"></div>
+          <div className="relative col-start-1 col-span-2 row-start-1 row-span-2">
+            <Image
+              src="/join-us-truck1.png"
+              alt="truck image"
+              fill={true}
+              objectFit="cover"
+              className="block rounded-2xl"
+            />
+          </div>
+          <div className="relative col-start-3 col-span-1">
+            <Image
+              src="/join-us-truck1.png"
+              alt="truck image"
+              fill={true}
+              objectFit="cover"
+              className="block rounded-2xl"
+            />
+          </div>
+          <div className="relative col-start-4 col-span-1">
+            <Image
+              src="/join-us-truck1.png"
+              alt="truck image"
+              fill={true}
+              objectFit="cover"
+              className="block rounded-2xl"
+            />
+          </div>
+          <div className="relative col-start-3 col-span-2">
+            <Image
+              src="/join-us-truck1.png"
+              alt="truck image"
+              fill={true}
+              objectFit="cover"
+              className="block rounded-2xl"
+            />
+          </div>
         </div>
       </Container>
     </div>

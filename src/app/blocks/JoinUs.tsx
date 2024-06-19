@@ -2,21 +2,44 @@ import React, { FC } from "react";
 import Container from "../components/reusable/Container";
 import LinkGen from "../components/reusable/LinkGen";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 const JoinUs: FC = () => {
-  const t = useTranslations("JoinUs")
+  const t = useTranslations("JoinUs");
   return (
     <div className="py-20 bg-main_grey">
       <Container>
         <div className=" h-[500px] grid grid-cols-3 grid-rows-4 gap-4">
-          <div className="borderr col-span-2 row-span-2">01</div>
-          <div className="borderr row-span-1">02</div>
-          <div className="borderr col-span-1 row-span-3">03</div>
+          <div className="relative col-span-2 row-span-2">
+            <Image
+              src="/join-us-truck1.png"
+              alt="truck image"
+              fill={true}
+              objectFit="cover"
+              className="block rounded-2xl"
+            />
+          </div>
+          <div className="relative row-span-1">
+            <Image
+              src="/join-us-truck1.png"
+              alt="truck image"
+              fill={true}
+              objectFit="cover"
+              className="block rounded-2xl"
+            />
+          </div>
+          <div className="relative col-span-1 row-span-3">
+            <Image
+              src="/join-us-truck1.png"
+              alt="truck image"
+              fill={true}
+              objectFit="cover"
+              className="block rounded-2xl"
+            />
+          </div>
 
           <div className="col-span-2 row-span-2 bg-white p-10 rounded-2xl">
-            <p className="text-xl text-justify">
-              {t("text")}
-            </p>
+            <p className="text-xl text-justify">{t("text")}</p>
             <LinkGen
               title={t("button")}
               href="#join-us"
