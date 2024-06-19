@@ -1,9 +1,10 @@
 import React, { FC } from "react";
 import Container from "../components/reusable/Container";
 import LinkGen from "../components/reusable/LinkGen";
-// import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const JoinUs: FC = () => {
+  const t = useTranslations("JoinUs")
   return (
     <div className="py-20 bg-main_grey">
       <Container>
@@ -14,12 +15,10 @@ const JoinUs: FC = () => {
 
           <div className="col-span-2 row-span-2 bg-white p-10 rounded-2xl">
             <p className="text-xl text-justify">
-              Join Usa King Transportation today and become part of a dynamic
-              team dedicated to excellence in transportation. Together, we will
-              drive success forward!
+              {t("text")}
             </p>
             <LinkGen
-              title="Join us"
+              title={t("button")}
               href="#join-us"
               className="bg-[#627A9E] py-2 px-10 shadow block my-0 mx-auto text-center w-max mt-10"
             />

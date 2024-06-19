@@ -1,5 +1,88 @@
 {
   "Index": {
-    "title": "Hola Mundo!"
+    "title": "Уыз"
+  },
+  "Header": {
+    "button": "Aplicar"
+  },
+  "Hero": {
+    "title": "Bienvenido a Usa King",
+    "title2": "Transportation",
+    "text": "Su socio de confianza en soluciones de transporte."
+  },
+  "AboutUs": {
+    "title": "Sobre nosotros",
+    "text1": "En Usa King Transportation, entendemos que el transporte confiable y eficiente es la columna vertebral de todo negocio exitoso. Nuestra amplia gama de servicios de transporte garantiza que su carga llegue a su destino de forma segura y a tiempo.",
+    "text2": "Con un compromiso con la excelencia y una dedicación a la satisfacción del cliente, Usa King Transportation está aquí para optimizar sus operaciones logísticas e impulsar su negocio. Explore nuestros servicios hoy y experimente la diferencia con nosotros.",
+    "shortText1": "La satisfacción del cliente",
+    "shortText2": "Soporte las 24 horas"
+  },
+  "AboutUs2": {
+    "title": "Usa King Transportation",
+    "title2": " es una de las mejores empresas de logística.",
+    "text": "Con años de experiencia y un equipo dedicado de profesionales, nos especializamos en el transporte de carga."
+  },
+  "Convenience": {
+    "title": "Comodidades para los conductores",
+    "text": "En Usa King Transportation, valoramos a nuestros conductores como la columna vertebral de nuestras operaciones. Unirse a nuestro equipo significa obtener acceso a una variedad de beneficios y servicios diseñados para apoyarlo y empoderarlo en su carrera:",
+    "Payment": {
+      "title": "Pago competitivo",
+      "text": "Ofrecemos tarifas salariales competitivas e incentivos para garantizar que su arduo trabajo sea reconocido y recompensado."
+    },
+    "Schedule": {
+      "title": "Horario flexible",
+      "text": "Disfrute de flexibilidad en su horario con varias rutas y asignaciones adaptadas a sus preferencias y disponibilidad."
+    },
+    "Benefits": {
+      "title": "Beneficios integrales",
+      "text": "Aproveche los paquetes integrales de beneficios, incluido el seguro médico, para respaldar su bienestar general."
+    },
+    "Support": {
+      "title": "Apoyo continuo",
+      "text": "Nuestro equipo dedicado está aquí para apoyarlo en cada paso del camino, brindándole capacitación, seguridad, ELD y asistencia cuando lo necesite."
+    }
+  },
+  "JoinUs": {
+    "text": "Únase a Usa King Transportation hoy y forme parte de un equipo dinámico dedicado a la excelencia en el transporte. Juntos impulsaremos el éxito!",
+    "button": "Únete a nosotros"
+  },
+  "FormSection": {
+    "title": "No pierdas tu oportunidad ideal",
+    "Form": {
+      "title": "Seleccionar formulario",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phoneNumber": "Número de teléfono",
+      "address": "DIRECCIÓN",
+      "experience": "años de experiencia",
+      "additional": "Adicional",
+      "button": "Entregar"
+    }
+  },
+  "HaveQuestions": {
+    "title": "Tiene preguntas?",
+    "CallSupport": {
+      "title": "Llamar a soporte",
+      "person1": "Gerente de Operaciones",
+      "person2": "Contabilidad",
+      "person3": "24/7 Apoyo",
+      "person4": "Seguridad",
+      "text": "O deja el tuyo y te llamaremos.",
+      "placeholder": "Ingrese texto"
+    }
+  },
+  "Footer": {
+    "Pages": {
+      "title": "Paginas"
+    },
+    "Address": {
+      "title": "Dirección",
+      "address1": "50 Milton St",
+      "address2": "Fstrvl Trvose, PA 19053"
+    },
+    "DotNumber": {
+      "title": "DOT número"
+    },
+    "text": "2024 • Todos los derechos reservados"
   }
 }

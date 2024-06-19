@@ -1,5 +1,89 @@
 {
   "Index": {
     "title": "Hello world!"
+  },
+  "Header": {
+    "button": "Apply"
+  },
+  "Hero": {
+    "title": "Welcome to Usa King ",
+    "title2": "Transportation",
+    "text": "Your trusted partner in transportation solutions."
+  },
+  "AboutUs": {
+    "title": "About us",
+    "text1": "At Usa King Transportation, we understand that reliable and efficient transportation is the backbone of every successful business. Our comprehensive range of transportation services ensures that your load reaches its destination safely, on time.",
+    "text2": "With a commitment to excellence and a dedication to customer satisfaction, Usa King Transportation is here to streamline your logistics operations and drive your business forward. Explore our services today and experience the difference with us.",
+    "shortText1": "Customer Satisfication",
+    "shortText2": "Round-the-Clock Support"
+  },
+  "AboutUs2": {
+    "title": "Usa King Transportation ",
+    "title2": "is one of the best logistic company",
+
+    "text": "With years of experience and a dedicated team of professionals, we specialize in freight forwarding."
+  },
+  "Convenience": {
+    "title": "Conveniences for Drivers",
+    "text": "At Usa King Transportation, we value our drivers as the backbone of our operations. Joining our team means gaining access to a range of benefits and services designed to support and empower you in your career:",
+    "Payment": {
+      "title": "Competitive Pay",
+      "text": "We offer competitive pay rates and incentives to ensure that your hard work is recognized and rewarded."
+    },
+    "Schedule": {
+      "title": "Flexible Schedule",
+      "text": "Enjoy flexibility in your schedule with various routes and assignments tailored to your preferences and availability."
+    },
+    "Benefits": {
+      "title": "Comprehensive Benefits",
+      "text": "Take advantage of comprehensive benefits packages, including health insurance to support your overall well-being."
+    },
+    "Support": {
+      "title": "Ongoing Support",
+      "text": "Our dedicated team is here to support you every step of the way, providing training, safety, ELD and assistance whenever you need it."
+    }
+  },
+  "JoinUs": {
+    "text": "Join Usa King Transportation today and become part of a dynamic team dedicated to excellence in transportation. Together, we will drive success forward!",
+    "button": "Join us"
+  },
+  "FormSection": {
+    "title": "Don’t miss out on your ideal opportunity",
+    "Form": {
+      "title": "Fill Form",
+      "name": "Name",
+      "email": "Email",
+      "phoneNumber": "Phone number",
+      "address": "Address",
+      "experience": "Years of Experience",
+      "additional": "Additional",
+      "button": "Submit"
+    }
+  },
+  "HaveQuestions": {
+    "title": "Have Questions?",
+    "CallSupport": {
+      "title": "Call Support",
+      "person1": "Operations Manager",
+      "person2": "Accounting",
+      "person3": "24/7 Support",
+      "person4": "Safety",
+      "text": "Or leave yours and we will call you back",
+      "placeholder": "Enter text"
+    }
+  },
+  "Footer": {
+    "Pages": {
+      "title": "Blocks"
+    },
+    "Address": {
+      "title": "Address",
+      "address1": "50 Milton St",
+      "address2": "Fstrvl Trvose, PA 19053"
+    },
+    "DotNumber": {
+      "title": "DOT number"
+    },
+    "text": "2024 • All rights Reserved"
   }
 }

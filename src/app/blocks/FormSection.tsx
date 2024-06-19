@@ -3,14 +3,16 @@ import Form from "../components/Main/Form";
 import Container from "../components/reusable/Container";
 import Image from "next/image";
 import Title from "../components/reusable/Title";
+import { useTranslations } from "next-intl";
 
 const FormSection: FC = () => {
+  const t = useTranslations("FormSection");
   return (
     <section id="join-us" className="py-20 h-max">
       <Container>
         <Title className="text-center mb-20">
-          Don’t miss out on your ideal opportunity
-        </Title>
+          {t("title")}
+          </Title>
         <div className="flex borderr max-2xl:grid">
           <Image
             src="/form-truck.png"

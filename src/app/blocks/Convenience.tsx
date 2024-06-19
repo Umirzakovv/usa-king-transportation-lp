@@ -3,21 +3,21 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import "../styles/swiper.css";
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { convenience } from "@/app/data/convenience";
 import SwiperCard from "../components/Main/SwiperCard";
 import Title from "../components/reusable/Title";
+import { useTranslations } from "next-intl";
 
 const Convenience: React.FC = () => {
   const progressCircle = useRef<SVGSVGElement>(null);
   const progressContent = useRef<HTMLSpanElement>(null);
+  const t = useTranslations("Convenience");
 
   const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
     if (progressCircle.current) {
@@ -33,14 +33,10 @@ const Convenience: React.FC = () => {
 
   return (
     <div id="for-drivers" className="py-20">
-      
-        <Title className="text-center">Conveniences for Drivers</Title>
-        <p className="text-2xl text-main_blue block mx-auto my-0 w-[900px] py-10 text-center">
-          At Usa King Transportation, we value our drivers as the backbone of
-          our operations. Joining our team means gaining access to a range of
-          benefits and services designed to support and empower you in your
-          career:
-        </p>
+      <Title className="text-center">{t("title")}</Title>
+      <p className="text-2xl text-main_blue block mx-auto my-0 w-[900px] py-10 text-center">
+        {t("text")}
+      </p>
       <div className="h-[700px]">
         <Swiper
           spaceBetween={30}
