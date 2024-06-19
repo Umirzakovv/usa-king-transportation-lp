@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      {/* <AboutUs />
-      <AboutUsSecondPart />
+      <AboutUs />
+      {/* <AboutUsSecondPart />
       <Convenience />
       <JoinUs />
       <FormSection />

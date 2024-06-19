@@ -7,14 +7,14 @@ const AboutUs: FC = () => {
   const t = useTranslations("AboutUs");
   return (
     <div id="about-us" className="bg-[url(/about-us-bg.svg)] py-[200px]">
-      <Container className="flex justify-between">
-        <div className="w-2/3 grid gap-10">
-          <Title>{t("title")}</Title>
+      <Container className="flex justify-between max-md:grid">
+        <div className="w-2/3 grid gap-10 max-md:w-full">
+          <Title className="max-md:text-center">{t("title")}</Title>
           <p className="text-lg text-main_blue">{t("text1")}</p>
           <p className="text-lg text-main_blue">{t("text2")}</p>
         </div>
 
-        <div className="flex justify-end w-1/3">
+        <div className="flex justify-end w-1/3 max-md:w-full max-md:justify-between">
           <div className="mx-0 my-auto">
             <div
               className="w-max
