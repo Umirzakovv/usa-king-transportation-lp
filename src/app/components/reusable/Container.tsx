@@ -8,7 +8,7 @@ type ContainerType = {
 const Container: FC<ContainerType> = ({ className = "", children }) => {
   return (
     <div
-      className={`${className} w-[1440px] block my-0 mx-auto max-2xl:w-[1000px] max-lg:w-[750px]`}
+      className={`${className} w-[1440px] block my-0 mx-auto max-2xl:w-[1000px] max-lg:w-[750px] max-md:w-[620px] max-sm:w-[340px]`}
     >
       {children}
     </div>

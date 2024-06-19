@@ -29,14 +29,9 @@ const LanguageSwitcher: FC = () => {
   };
 
   return (
-    <div className="mr-5">
+    <div className="mr-5 max-md:mr-1">
       <select
-        style={{
-          border: "none",
-          outline: "rgb(0, 149, 255)",
-          background: "transparent",
-          cursor: "pointer",
-        }}
+        className="border-none cursor-pointer outline-[#0095ff] bg-transparent text-lg text-main_brown max-lg:text-sm"
         aria-label="select-language"
         value={locale}
         onChange={handleChange}

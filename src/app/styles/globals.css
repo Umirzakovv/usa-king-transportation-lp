@@ -22,6 +22,17 @@
   }
 }
 
+/* styles/globals.css or in a <style> tag */
+
+@layer utilities {
+  .translate-x-full {
+    transform: translateX(100%);
+  }
+  .translate-x-0 {
+    transform: translateX(0);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

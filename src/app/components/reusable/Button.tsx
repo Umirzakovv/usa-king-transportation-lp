@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
 type ButtonType = {
-  title: string;
+  title: string| ReactNode;
   className?: string;
   type: "submit" | "reset" | "button" | undefined;
 };
