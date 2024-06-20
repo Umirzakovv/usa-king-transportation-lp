@@ -13,6 +13,7 @@ import { convenience } from "@/app/data/convenience";
 import SwiperCard from "../components/Main/SwiperCard";
 import Title from "../components/reusable/Title";
 import { useTranslations } from "next-intl";
+import Container from "../components/reusable/Container";
 
 const Convenience: React.FC = () => {
   const progressCircle = useRef<SVGSVGElement>(null);
@@ -33,10 +34,12 @@ const Convenience: React.FC = () => {
 
   return (
     <div id="for-drivers" className="py-20 border">
-      <Title className="text-center max-sm:text-2xl">{t("title")}</Title>
-      <p className="text-2xl text-main_blue block mx-auto my-0 w-[900px] py-10 text-center max-lg:w-full max-sm:text-lg">
-        {t("text")}
-      </p>
+      <Container>
+        <Title className="text-center max-sm:text-2xl">{t("title")}</Title>
+        <p className="text-2xl text-main_blue block mx-auto my-0 w-[900px] py-10 text-center max-lg:w-full max-sm:text-lg">
+          {t("text")}
+        </p>
+      </Container>
       <div className="h-[700px]">
         <Swiper
           spaceBetween={30}
