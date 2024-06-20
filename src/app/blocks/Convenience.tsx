@@ -32,9 +32,9 @@ const Convenience: React.FC = () => {
   };
 
   return (
-    <div id="for-drivers" className="py-20">
-      <Title className="text-center">{t("title")}</Title>
-      <p className="text-2xl text-main_blue block mx-auto my-0 w-[900px] py-10 text-center">
+    <div id="for-drivers" className="py-20 border">
+      <Title className="text-center max-sm:text-2xl">{t("title")}</Title>
+      <p className="text-2xl text-main_blue block mx-auto my-0 w-[900px] py-10 text-center max-lg:w-full max-sm:text-lg">
         {t("text")}
       </p>
       <div className="h-[700px]">

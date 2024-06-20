@@ -16,8 +16,10 @@ const AboutUsSecondPart: FC = () => {
         <p className="text-lg text-main_blue text-center mt-3 mb-10">
           {t("text")}
         </p>
-        <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px]">
-          <div className="relative col-start-1 col-span-2 row-start-1 row-span-2">
+
+
+        <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px] borderr max-lg:grid-cols-2">
+          <div className="borderr relative col-start-1 col-span-2 row-start-1 row-span-2">
             <Image
               src="/join-us-truck1.png"
               alt="truck image"
@@ -26,7 +28,7 @@ const AboutUsSecondPart: FC = () => {
               className="block rounded-2xl"
             />
           </div>
-          <div className="relative col-start-3 col-span-1">
+          <div className="borderr relative col-start-3 col-span-1">
             <Image
               src="/join-us-truck1.png"
               alt="truck image"
@@ -35,7 +37,7 @@ const AboutUsSecondPart: FC = () => {
               className="block rounded-2xl"
             />
           </div>
-          <div className="relative col-start-4 col-span-1">
+          <div className="borderr relative col-start-4 col-span-1">
             <Image
               src="/join-us-truck1.png"
               alt="truck image"
@@ -44,7 +46,7 @@ const AboutUsSecondPart: FC = () => {
               className="block rounded-2xl"
             />
           </div>
-          <div className="relative col-start-3 col-span-2">
+          <div className="borderr relative col-start-3 col-span-2">
             <Image
               src="/join-us-truck1.png"
               alt="truck image"
@@ -54,6 +56,8 @@ const AboutUsSecondPart: FC = () => {
             />
           </div>
         </div>
+
+
       </Container>
     </div>
   );

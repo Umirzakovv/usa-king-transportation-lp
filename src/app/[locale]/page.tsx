@@ -10,11 +10,11 @@ import Footer from "../components/Footer/Footer";
 export default function Home() {
   return (
     <div>
-      <Hero />
-      <AboutUs />
-      {/* <AboutUsSecondPart />
+      {/* <Hero />
+      <AboutUs /> */}
+      {/* <AboutUsSecondPart /> */}
       <Convenience />
-      <JoinUs />
+      {/* <JoinUs />
       <FormSection />
       <HaveQuestions />
       <Footer /> */}
