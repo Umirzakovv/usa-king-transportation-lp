@@ -10,15 +10,16 @@ const FormSection: FC = () => {
   return (
     <section id="join-us" className="py-20 h-max">
       <Container>
-        <Title className="text-center mb-20">
+        <Title className="text-center mb-20 max-lg:text-2xl">
           {t("title")}
           </Title>
-        <div className="flex borderr max-2xl:grid">
+        <div className="flex borderr max-2xl:grid max-2xl:place-items-center">
           <Image
             src="/form-truck.png"
             alt="truck image"
             width={700}
             height={100}
+            layout="responsive"
           />
           <Form />
         </div>

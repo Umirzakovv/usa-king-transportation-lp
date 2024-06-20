@@ -17,7 +17,7 @@ const TextArea: FC<TextAreaProps> = ({ label, required, error }) => {
           rows={4}
           cols={40}
           required={required}
-          className="border-orange block text-xl p-2 rounded-3xl w-full focus:outline-main_orange placeholder-[#627a9e71]"
+          className="border-orange block text-xl p-2 rounded-3xl w-full focus:outline-main_orange placeholder-[#627a9e71] max-md:text-base max-sm:  "
         />
         <p className="text-rose-500 invisible">{error}</p>
       </label>
