@@ -14,8 +14,8 @@ export default function Home() {
       <AboutUs />
       <AboutUsSecondPart />
       <Convenience /> */}
-      {/* <JoinUs /> */}
-      <FormSection />
+      <JoinUs />
+      {/* <FormSection /> */}
       {/* <HaveQuestions /> */}
       {/* <Footer /> */}
     </div>
