@@ -17,38 +17,37 @@ const AboutUsSecondPart: FC = () => {
           {t("text")}
         </p>
 
-
-        <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px] borderr max-lg:grid-cols-2">
-          <div className="borderr relative col-start-1 col-span-2 row-start-1 row-span-2">
+        <div className="grid grid-cols-4 grid-rows-2 gap-4 h-[500px] max-lg:grid-cols-2">
+          <div className="relative col-start-1 col-span-2 row-start-1 row-span-2">
             <Image
-              src="/join-us-truck1.png"
+              src="/about-us1.png"
               alt="truck image"
               fill={true}
               objectFit="cover"
               className="block rounded-2xl"
             />
           </div>
-          <div className="borderr relative col-start-3 col-span-1">
+          <div className="relative col-start-3 col-span-1">
             <Image
-              src="/join-us-truck1.png"
+              src="/about-us2.png"
               alt="truck image"
               fill={true}
               objectFit="cover"
               className="block rounded-2xl"
             />
           </div>
-          <div className="borderr relative col-start-4 col-span-1">
+          <div className="relative col-start-4 col-span-1">
             <Image
-              src="/join-us-truck1.png"
+              src="/about-us3.png"
               alt="truck image"
               fill={true}
               objectFit="cover"
               className="block rounded-2xl"
             />
           </div>
-          <div className="borderr relative col-start-3 col-span-2">
+          <div className="relative col-start-3 col-span-2">
             <Image
-              src="/join-us-truck1.png"
+              src="/about-us4.png"
               alt="truck image"
               fill={true}
               objectFit="cover"
@@ -56,8 +55,6 @@ const AboutUsSecondPart: FC = () => {
             />
           </div>
         </div>
-
-
       </Container>
     </div>
   );

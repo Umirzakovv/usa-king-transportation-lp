@@ -10,7 +10,7 @@ interface inputProps {
 const Input: FC<inputProps> = ({ type, label, required, error }) => {
   return (
     <div className="w-max max-sm:w-full">
-      <label className="text-[#627A9E]">
+      <label className="text-[#627A9E] max-md:text-sm max-sm:text-xs">
         {label} {required && <span style={{ color: "red" }}>*</span>}
         <input
           type={type}

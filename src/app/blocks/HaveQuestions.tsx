@@ -12,19 +12,22 @@ const HaveQuestions: FC = () => {
     <div id="contacts">
       <Container className="py-20">
         <Title className="text-center pb-20">{t("title")}?</Title>
-        <div className="w-full flex items-center justify-between max-lg:grid">
-          <div className="w-1/2">
+        <div className="flex items-center justify-between borderr max-lg:grid max-lg:place-items-center">
+          <div className="w-1/2 borderr max-lg:w-full">
             <CallSupport />
             <p className="text-[#627A9E] m-5">{t("CallSupport.text")}</p>
             <CallSupportInput />
           </div>
-
-          <Image
-            src="/iphone-15.png"
-            alt="Iphone 15 img"
-            width={427}
-            height={864}
-          />
+         
+          <div className="w-1/3 ml-5 borderr max-lg:w-full">
+            <Image
+              src="/iphone-15.png"
+              alt="Iphone 15 img"
+              width={427}
+              height={864}
+              layout="responsive"
+            />
+          </div>
         </div>
       </Container>
     </div>
