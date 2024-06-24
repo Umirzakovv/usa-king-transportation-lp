@@ -1,7 +1,7 @@
-import { FC, ReactNode } from "react";
+import { FC, FormEvent, FormEventHandler, ReactNode } from "react";
 
 type ButtonType = {
-  title: string| ReactNode;
+  title: string | ReactNode;
   className?: string;
   type: "submit" | "reset" | "button" | undefined;
 };
