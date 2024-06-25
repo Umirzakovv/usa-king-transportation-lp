@@ -3,7 +3,14 @@
     "title": "Уыз"
   },
   "Header": {
-    "button": "Aplicar"
+    "button": "Aplicar",
+    "Navbar": {
+      "home": "Principal",
+      "aboutUs": "Sobre nosotros",
+      "forDrivers": "Para conductores",
+      "joinUs": "Únete a nosotros",
+      "contacts": "Contactos"
+    }
   },
   "Hero": {
     "title": "Bienvenido a Usa King",
@@ -68,7 +75,7 @@
       "person3": "24/7 Apoyo",
       "person4": "Seguridad",
       "text": "O deja el tuyo y te llamaremos.",
-      "placeholder": "Ingrese texto"
+      "placeholder": "Entra tu numero"
     }
   },
   "Footer": {
@@ -84,7 +91,7 @@
       "title": "DOT número"
     },
     "text": "2024 • Todos los derechos reservados"
-  }, 
+  },
   "Toast": {
     "formSubmit": "Su información ha sido recibida, pronto nos comunicaremos con usted nuevamente, gracias."
   }

@@ -7,6 +7,8 @@ import { Toaster, toast } from "sonner";
 
 const CallSupportInput: FC = () => {
   const t = useTranslations("Toast");
+  const t2 = useTranslations("HaveQuestions");
+
 
   const toaster = () => toast.success(t("formSubmit"));
   const [number, setNumber] = useState<string>("");
@@ -47,7 +49,7 @@ const CallSupportInput: FC = () => {
           required
           value={number}
           onChange={(e) => setNumber(e?.target?.value)}
-          placeholder="Enter your number"
+          placeholder={t2("CallSupport.placeholder")}
           className="w-full focus:outline-none ml-5"
         />
         <button

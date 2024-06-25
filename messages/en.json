@@ -3,7 +3,14 @@
     "title": "Hello world!"
   },
   "Header": {
-    "button": "Apply"
+    "button": "Apply",
+    "Navbar": {
+      "home": "Home",
+      "aboutUs": "About us",
+      "forDrivers": "For drivers",
+      "joinUs": "Join us",
+      "contacts": "Contacts"
+    }
   },
   "Hero": {
     "title": "Welcome to Usa King ",
@@ -69,7 +76,7 @@
       "person3": "24/7 Support",
       "person4": "Safety",
       "text": "Or leave yours and we will call you back",
-      "placeholder": "Enter text"
+      "placeholder": "Enter your number"
     }
   },
   "Footer": {

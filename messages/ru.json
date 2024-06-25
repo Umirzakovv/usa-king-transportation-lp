@@ -3,7 +3,14 @@
     "title": "Hello world!"
   },
   "Header": {
-    "button": "Подать заявку"
+    "button": "Подать заявку",
+    "Navbar": {
+      "home": "Главное",
+      "aboutUs": "О нас",
+      "forDrivers": "Для водителей",
+      "joinUs": "Присоединяйтесь",
+      "contacts": "Контакты"
+    }
   },
   "Hero": {
     "title": "Добро пожаловать в Usa King",
@@ -69,7 +76,7 @@
       "person3": "24/7 Поддержка",
       "person4": "Безопасность",
       "text": "Или оставьте свой и мы вам перезвоним",
-      "placeholder": "Напишите"
+      "placeholder": "Введите свой номер"
     }
   },
   "Footer": {

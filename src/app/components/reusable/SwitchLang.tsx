@@ -10,12 +10,12 @@ const options = [
     value: "en",
   },
   {
-    label: "Esp",
-    value: "es",
-  },
-  {
     label: "Рус",
     value: "ru",
+  },
+  {
+    label: "Esp",
+    value: "es",
   },
 ];
 

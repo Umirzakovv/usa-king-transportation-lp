@@ -67,7 +67,7 @@ const Form = () => {
       className="border-orange w-max p-10 rounded-3xl bg-white shadow-lg max-md:p-5 max-sm:grid max-sm:w-[330px]"
     >
       <h4 className="text-3xl text-[#627A9E] max-lg:text-2xl max-md:text-base">
-        Select Form
+        {t("Form.title")}
       </h4>
 
       <div className="flex gap-10 max-md:gap-5 max-sm:grid">

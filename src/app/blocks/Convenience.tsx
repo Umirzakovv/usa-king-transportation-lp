@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 
 import "../styles/swiper.css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { convenience } from "@/app/data/convenience";
 import SwiperCard from "../components/Main/SwiperCard";
 import Title from "../components/reusable/Title";
 import { useTranslations } from "next-intl";
@@ -19,6 +18,32 @@ const Convenience: React.FC = () => {
   const progressCircle = useRef<SVGSVGElement>(null);
   const progressContent = useRef<HTMLSpanElement>(null);
   const t = useTranslations("Convenience");
+  const convenience = [
+    {
+      id: 1,
+      src: "/payment.svg",
+      title: t("Payment.title"),
+      text: t("Payment.text"),
+    },
+    {
+      id: 2,
+      src: "/schedule.svg",
+      title: t("Schedule.title"),
+      text: t("Schedule.text"),
+    },
+    {
+      id: 3,
+      src: "benefit.svg",
+      title: t("Benefits.title"),
+      text: t("Benefits.text"),
+    },
+    {
+      id: 4,
+      src: "/support.svg",
+      title: t("Support.title"),
+      text: t("Support.text"),
+    },
+  ];
 
   const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
     if (progressCircle.current) {
