@@ -35,7 +35,6 @@ const Header = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-console.log(windowDimensions);
 
   return (
     <div className="backdrop-blur py-2">

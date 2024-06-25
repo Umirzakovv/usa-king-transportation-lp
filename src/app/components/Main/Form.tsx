@@ -29,8 +29,6 @@ const Form = () => {
     e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
-    console.log(e?.target?.name);
-
     setFormData({
       ...formData,
       [name]: value,

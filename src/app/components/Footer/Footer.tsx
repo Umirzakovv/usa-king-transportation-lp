@@ -21,7 +21,7 @@ const Footer = () => {
             <li>
               <Link
                 href="#home"
-                className="font-medium bg-text hover:text-[#6e5e5183] max-lg:text-sm max-md:text-xs"
+                className="font-medium bg-text hover:text-[#bbb] max-lg:text-sm max-md:text-xs"
               >
                 {t2("Navbar.home")}
               </Link>
@@ -29,7 +29,7 @@ const Footer = () => {
             <li>
               <Link
                 href="#about-us"
-                className="font-medium bg-text hover:text-[#6e5e5183] max-lg:text-sm max-md:text-xs"
+                className="font-medium bg-text hover:text-[#bbb] max-lg:text-sm max-md:text-xs"
               >
                 {t2("Navbar.aboutUs")}
               </Link>
@@ -37,7 +37,7 @@ const Footer = () => {
             <li>
               <Link
                 href="#for-drivers"
-                className="font-medium bg-text hover:text-[#6e5e5183] max-lg:text-sm max-md:text-xs"
+                className="font-medium bg-text hover:text-[#bbb] max-lg:text-sm max-md:text-xs"
               >
                 {t2("Navbar.forDrivers")}
               </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
             <li>
               <Link
                 href="#join-us"
-                className="font-medium bg-text hover:text-[#6e5e5183] max-lg:text-sm max-md:text-xs"
+                className="font-medium bg-text hover:text-[#bbb] max-lg:text-sm max-md:text-xs"
               >
                 {t2("Navbar.joinUs")}
               </Link>
@@ -53,7 +53,7 @@ const Footer = () => {
             <li>
               <Link
                 href="#contacts"
-                className="font-medium bg-text hover:text-[#6e5e5183] max-lg:text-sm max-md:text-xs"
+                className="font-medium bg-text hover:text-[#bbb] max-lg:text-sm max-md:text-xs"
               >
                 {t2("Navbar.contacts")}
               </Link>

@@ -14,8 +14,6 @@ type UtitlityBarType = {
 };
 
 const Utilitybar: FC<UtitlityBarType> = ({ windowDimensions }) => {
-  console.log(windowDimensions);
-
   const t = useTranslations("Header");
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
