@@ -84,5 +84,8 @@
       "title": "DOT número"
     },
     "text": "2024 • Todos los derechos reservados"
+  }, 
+  "Toast": {
+    "formSubmit": "Su información ha sido recibida, pronto nos comunicaremos con usted nuevamente, gracias."
   }
 }

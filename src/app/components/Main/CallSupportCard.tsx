@@ -32,11 +32,11 @@ const CallSupportCard: FC<CallSupportCardProps> = ({
   };
 
   return (
-    <div className="border-orange grid gap-1 p-5 rounded-2xl  w-full">
+    <div className="border-orange grid gap-1 p-5 rounded-2xl  w-full max-sm:w-[250px] max-sm:p-1">
       <h4 className="text-[#303030] text-xl font-medium">{title}</h4>
 
       {email && (
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center max-sm:grid max-sm:mb-3">
           <p className="text-[#627A9E]">{email}</p>
           <div onClick={() => handleCopyClick(email)}>
             <Image
@@ -52,21 +52,21 @@ const CallSupportCard: FC<CallSupportCardProps> = ({
         </div>
       )}
 
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center max-sm:grid">
         <Link className="text-[#5395F9]" href={`tel:${number}`}>
           {number}
         </Link>
         <Link target="_blank" href={link} className="text-[#5395F9]">
           {username}
         </Link>
-        <div>
+        <Link href={link} target="_blank">
           <Image
             src="/telegram.svg"
             alt="telegram image"
             width={24}
             height={24}
           />
-        </div>
+        </Link>
       </div>
     </div>
   );

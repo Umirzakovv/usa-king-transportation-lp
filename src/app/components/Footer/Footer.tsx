@@ -9,7 +9,7 @@ const Footer = () => {
   const t = useTranslations("Footer");
   return (
     <footer className="bg-main_blue py-20 text-[#d9d9d9]">
-      <Container className="flex justify-between borderr max-md:grid max-md:grid-cols-2 max-md:gap-10">
+      <Container className="flex justify-between max-md:grid max-md:grid-cols-2 max-md:gap-10">
         <div>
           <Logo />
         </div>

@@ -8,7 +8,7 @@ interface CallSupportProps {
 
 const CallSupport: FC<CallSupportProps> = () => {
   return (
-    <div className="border-orange p-10 grid gap-5 rounded-[50px] shadow-xl borderr">
+    <div className="border-orange p-10 grid gap-5 rounded-[50px] shadow-xl max-sm:p-6">
       <h2 className="text-[#303030] text-2xl font-semibold text-center">
         Call Support
       </h2>
