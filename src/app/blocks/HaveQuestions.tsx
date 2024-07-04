@@ -13,7 +13,7 @@ const HaveQuestions: FC = () => {
       <Container className="py-20">
         <Title className="text-center pb-20">{t("title")}?</Title>
         <div className="flex items-center justify-between max-lg:grid max-lg:justify-center">
-          <div className="w-1/2 max-lg:w-full max-sm:w-[300px]">
+          <div className="w-1/2 max-lg:w-full ">
             <CallSupport />
             <p className="text-[#627A9E] m-5">{t("CallSupport.text")}</p>
             <CallSupportInput />
